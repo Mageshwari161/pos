@@ -5,139 +5,58 @@
 * @Last Modified time: 2016-11-03 08:52:49
 */
 var espressos = {  type:  'Espresso',
-                   varieties: [{    name:'Caffè Mocha',
+                 varieties: [{    name:'Milk',
                                     count: 0,
-                                    baseprice: 5.99,
-                                    src: 'img/mocha.jpg',
-                                    modifiers: [{   name: 'Chocolate Syrup',
-                                                    price: 0.25,
-                                                    count: 0
-                                                },  
-                                                {   
-                                                    name: 'Whipped Cream',
-                                                    price: 0.3, 
-                                                    count: 0
-                                                }]
-                                },
-                                {
-                                    name:'Caffè Americano',
+                                    baseprice: 60,
+                     }]
+
+                     varieties: [{    name:'cream',
                                     count: 0,
-                                    baseprice: 5.99,
-                                    src: 'img/americano.jpg',
-                                    modifiers: [{   name: 'Chocolate Syrup',
-                                                    price: 0.25,
-                                                    count: 0
-                                                },  
-                                                {   
-                                                    name: 'Whipped Cream',
-                                                    price: 0.3, 
-                                                    count: 0
-                                                }]
-                                }]
+                                    baseprice: 75,               
+                            }]        
+                      varieties: [{    name:'Latte',
+                                    count: 0,
+                  
+                  baseprice: 100,}]
+                };
+var  cappuccino = {  type:  'Cappuccino  ',
+                 varieties: [{    name:'Milk',
+                                    count: 0,
+                                    baseprice: 80,
+                     }]
+
+                     varieties: [{    name:'cream',
+                                    count: 0,
+                                    baseprice: 90,               
+                            }]        
+                      varieties: [{    name:'Latte',
+                                    count: 0,
+                  
+                  baseprice: 125,
+}]
                 };
 
+var latte = {  type:  'Latte',
+                 varieties: [{    name:'Milk',
+                                    count: 0,
+                                    baseprice: 100,
+                     }]
 
-var coffees = {     type:  'Coffee',
-                    varieties: [
-                        {
-                            name:'Caffè Misto',
-                            count: 0,
-                            baseprice: 2.99,
-                            src: 'img/mitso.jpg',
-                            modifiers: [{   name: 'Suger',
-                                            price: 0.2,
-                                            count: 0
-                                        },
-                                        {   name: 'Milk',
-                                            price: 0.5,
-                                            count: 0
-                                        }] 
-                        },
-                        {
-                            name:'Iced Coffee',
-                            count: 0,
-                            baseprice: 1.99,
-                            src: 'img/iced_coffee.jpg',
-                            modifiers: [{   name: 'Suger',
-                                            price: 0.2,
-                                            count: 0
-                                        },
-                                        {   name: 'Milk',
-                                            price: 0.5,
-                                            count: 0
-                                        }]  
-                        }
-                    ]
-            };
-
-var teas = {        type:  'Tea',
-                    varieties: [
-                    {
-                        name:'Earl Grey',
-                        count: 0,
-                        baseprice: 0.99,
-                        src: 'img/earl_gray.jpg',
-                        modifiers: [{ name: 'Suger',
-                         price: 0.2,
-                         count: 0
-                        },
-                        {name: 'Milk',
-                         price: 0.5,
-                         count: 0
-                        }]},
-                    {
-                        name:'Royal English Breakfast Brewed Tea',
-                        count: 0,
-                        baseprice: 1.99,
-                        src: 'img/english_breakfast.jpg',
-                        modifiers: [{ name: 'Suger',
-                         price: 0.2,
-                         count: 0
-                        },
-                        {name: 'Milk',
-                         price: 0.5,
-                         count: 0
-                        }]
-                    }
-                    ]
-            };
-
-var smoothies = {   type:  'Smoothie',
-                    varieties: [{
-                        name: 'Chocolate Smoothie',
-                        count : 0,
-                        baseprice: 4.99,
-                        src: 'img/chocolate_smoothie.jpg',
-                        modifiers: [{ name: 'Smile',
-                            price: 0,
-                            count: 0
-                        },
-                        {   name: 'Huge',
-                            price: 0,
-                            count: 0
-                        }]
-                    }, 
-                    {
-                        name: 'Orange Mango Smoothie',
-                        count : 0,
-                        baseprice: 3.99,
-                        src: 'img/orange_mango_smoothie.jpg',
-                        modifiers: [{ name: 'Smile',
-                            price: 0,
-                            count: 0
-                        },
-                        {   name: 'Huge',
-                            price: 0,
-                            count: 0
-                        }]
-                    }]
+                     varieties: [{    name:'cream',
+                                    count: 0,
+                                    baseprice: 125,               
+                            }]        
+                      varieties: [{    name:'Latte',
+                                    count: 0,
+                  
+                  baseprice: 150,
+}]
                 };
-
 var drinks = [
      espressos,
-     coffees,
-     teas,
-     smoothies
+     cappuccino,
+     Latte,
+    
 ];
 
 
